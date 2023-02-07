@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:mobin/homepage.dart';
+
+import '../Hompage/homepage.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -31,9 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              "assets/images/mobin_dark_image.png",
-            ),
+            Image.asset("assets/images/mobin_dark_image.png"),
           ],
         ),
       ),
