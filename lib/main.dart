@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
 
       // Title displayed at the top of the App
-      title: "MOBIN",
+      title: "TravPal",
       // Home Page
       home: const SplashScreen(),
     );
