@@ -35,11 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_native_splash: ^2.2.17
+  video_player: ^2.5.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.2.17
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -49,12 +50,12 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter_native_splash:
-  color: "#42a5f5"
-  image: assets/logo/mobin_light.png
-  color_dark: "#042a49"
-  image_dark: assets/logo/mobin_dark.png
+  #   color: "#42a5f5"
+  #   image: assets/logo/mobin_light.png
+  color_dark: "#000000"
+  image_dark: assets/logo/black_screen.png
 
-  web: false
+# web: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
