@@ -40,7 +40,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_native_splash: ^2.2.17
+  # flutter_native_splash: ^2.2.17
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -49,11 +49,11 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
-flutter_native_splash:
-  #   color: "#42a5f5"
-  #   image: assets/logo/mobin_light.png
-  color_dark: "#000000"
-  image_dark: assets/logo/black_screen.png
+# flutter_native_splash:
+#   color: "#42a5f5"
+#   image: assets/logo/mobin_light.png
+# color_dark: "#000000"
+# image_dark: assets/logo/black_screen.png
 
 # web: false
 
